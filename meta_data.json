@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "mobile",
+        "1": "productivity",
+        "2": "small business"
+    },
+    "demo_page": "https://mapboxplugin.bubbleapps.io/version-test",
+    "description": "The Mapbox Maps plugin for Bubble provides integration with Mapbox. \n\nIt Allows:\n1. Show the map\n2. Zoom/in. \n3. Go to current location. \n\nIf you want any features, mail me at nocodetalks@gmail.com",
+    "image": "//meta-q.cdn.bubble.io/f1740460981080x540247032751539400/images.png",
+    "license": "open_source",
+    "link": "https://bubble.io/page?id=mapboxplugin&test_plugin=1740460951128x427398943225675800_current&tab=Design&name=index",
+    "name": "Mapbox",
+    "plugin_instructions": "Drag the Mapbox Element \n\n"
+}

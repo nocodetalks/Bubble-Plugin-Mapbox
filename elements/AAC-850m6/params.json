@@ -1,0 +1,81 @@
+{
+    "add_hover_pressed": false,
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Mapbox",
+    "events": {
+        "AAI": {
+            "caption": "Map Loaded Successfully",
+            "name": "map_loaded"
+        }
+    },
+    "fields": {
+        "AAD": {
+            "caption": "Map Style",
+            "default_val": "mapbox://styles/mapbox/streets-v12",
+            "doc": "All the Map Style: https://docs.mapbox.com/api/maps/styles/",
+            "editor": "Dropdown",
+            "in_style": true,
+            "name": "map_style",
+            "options": "mapbox://styles/mapbox/standard,mapbox://styles/mapbox/standard-satellite,mapbox://styles/mapbox/streets-v12,mapbox://styles/mapbox/outdoors-v12, mapbox://styles/mapbox/light-v11, mapbox://styles/mapbox/dark-v11, mapbox://styles/mapbox/satellite-v9, mapbox://styles/mapbox/satellite-streets-v12, mapbox://styles/mapbox/navigation-day-v1, mapbox://styles/mapbox/navigation-night-v1",
+            "rank": 0
+        },
+        "AAE": {
+            "caption": "Zoom",
+            "default_val": 10,
+            "doc": "Choose between 0 to 22",
+            "editor": "DynamicValue",
+            "name": "zoom",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAF": {
+            "caption": "Hide Mapbox Branding",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "hide_mapbox_branding",
+            "rank": 2,
+            "value": "boolean"
+        },
+        "AAG": {
+            "caption": "Default Location",
+            "editor": "DynamicValue",
+            "name": "default_location",
+            "optional": true,
+            "rank": 3,
+            "value": "geographic_address"
+        }
+    },
+    "icon": "ion-map",
+    "platform_type": "web",
+    "property_applications": {
+        "Border": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    },
+    "states": {
+        "AAK": {
+            "caption": "Current Location latitude",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "current_location_latitude",
+            "value": "number"
+        },
+        "AAL": {
+            "caption": "Current Location Longitude",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "current_location_longitude",
+            "value": "number"
+        }
+    }
+}

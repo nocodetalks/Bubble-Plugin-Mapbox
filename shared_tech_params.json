@@ -1,0 +1,12 @@
+{
+    "dependencies": {
+        "plugin_api_version": 4,
+        "use_jquery": true
+    },
+    "shared_keys": {
+        "AAH": {
+            "caption": "ACCESS_KEY",
+            "type": "client_safe"
+        }
+    }
+}
