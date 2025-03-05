@@ -13,6 +13,10 @@
         "AAI": {
             "caption": "Map Loaded Successfully",
             "name": "map_loaded"
+        },
+        "AAw": {
+            "caption": "Marker Clicked",
+            "name": "marker_clicked"
         }
     },
     "fields": {
@@ -115,7 +119,7 @@
         },
         "AAY": {
             "caption": "Location",
-            "default_val": "Top Right",
+            "default_val": "Top Left",
             "editor": "Dropdown",
             "name": "directions_location",
             "options": "Top Right,Top Left,Bottom Right,Bottom Left",
@@ -179,6 +183,30 @@
             },
             "name": "current_location_longitude",
             "value": "number"
+        },
+        "AAx": {
+            "caption": "Marker Lat",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "clicked_marker_lat",
+            "value": "number"
+        },
+        "AAy": {
+            "caption": "Marker Lng",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "clicked_marker_lng",
+            "value": "number"
+        },
+        "AAz": {
+            "caption": "Marker ID",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "clicked_marker_id",
+            "value": "text"
         }
     }
 }

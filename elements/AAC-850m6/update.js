@@ -3,7 +3,7 @@ function(instance, properties, context) {
 	
     const mapbox= instance.data.mapbox;
     
-    console.log("Mapbox",mapbox);
+    //console.log("Mapbox",mapbox);
     
     const {zoom:zoom, default_map_style:style, custom_style_url:customerMapStyle, hide_mapbox_branding:hideBranding, longitude:defaultLocationLang, latitude:defaultLocationLat, show_navigation:isNavigationVisible, nav_location:navigationControlPostion, show_directions:isDirectionsVisible, directions_location:directionControlPostion, geolocation_control:isGeoLocationVisible, geolocation_location:geoLocationControlPostion } = properties;
 
@@ -39,7 +39,10 @@ function(instance, properties, context) {
             mapbox.addControl(instance.data.navigationControl, instance.data.formatPosition(navigationControlPostion));
         }
     }else{
-       mapbox.removeControl(instance.data.navigationControl);
+        if(mapbox.hasControl(instance.data.navigationControl)) {
+            mapbox.removeControl(instance.data.navigationControl);
+
+        }
     }
 
     //show direction control
@@ -62,7 +65,9 @@ function(instance, properties, context) {
         }
 
     }else{
-        mapbox.removeControl(instance.data.geoLocationControl);
+        if(mapbox.hasControl(instance.data.geoLocationControl)) {
+            mapbox.removeControl(instance.data.geoLocationControl);
+        }
     }
      
 }

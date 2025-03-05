@@ -1,0 +1,12 @@
+{
+    "caption": "Remove Single Marker",
+    "fields": {
+        "ABB": {
+            "caption": "Marker Unique ID",
+            "editor": "DynamicValue",
+            "name": "marker_unique_id",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

@@ -1,4 +1,10 @@
 {
+    "assets": {
+        "AAe": {
+            "name": "default_map",
+            "url": "//meta-q.cdn.bubble.io/f1741161315071x558707261539545200/Screenshot%202025-03-05%20at%201.25.02%E2%80%AFPM.png"
+        }
+    },
     "dependencies": {
         "plugin_api_version": 4,
         "use_jquery": true

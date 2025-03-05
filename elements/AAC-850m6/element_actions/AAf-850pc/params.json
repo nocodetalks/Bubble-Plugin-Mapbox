@@ -1,0 +1,131 @@
+{
+    "caption": "Add Single Marker",
+    "fields": {
+        "AAg": {
+            "caption": "Location",
+            "editor": "Label",
+            "name": "marker_location",
+            "rank": 0
+        },
+        "AAh": {
+            "caption": "Longitude",
+            "editor": "DynamicValue",
+            "name": "marker_longitude",
+            "optional": true,
+            "rank": 1,
+            "value": "number"
+        },
+        "AAi": {
+            "caption": "Latitude",
+            "editor": "DynamicValue",
+            "name": "marker_latitude",
+            "optional": true,
+            "rank": 2,
+            "value": "number"
+        },
+        "AAj": {
+            "caption": "Geographic Address",
+            "editor": "DynamicValue",
+            "name": "marker_geographic_address",
+            "optional": true,
+            "rank": 3,
+            "value": "geographic_address"
+        },
+        "AAk": {
+            "caption": "Marker UI",
+            "editor": "Label",
+            "name": "marker_ui",
+            "rank": 4
+        },
+        "AAl": {
+            "caption": "Image",
+            "default_val": "//meta-q.cdn.bubble.io/f1741163197974x273231653514932600/5860579.png",
+            "editor": "DynamicValue",
+            "name": "marker_image",
+            "rank": 5,
+            "value": "image"
+        },
+        "AAm": {
+            "caption": "Width",
+            "default_val": 60,
+            "doc": "Marker Width in Px ",
+            "editor": "DynamicValue",
+            "name": "marker_width",
+            "rank": 6,
+            "value": "number"
+        },
+        "AAn": {
+            "caption": "Height",
+            "default_val": 60,
+            "doc": "Marker Height in Px ",
+            "editor": "DynamicValue",
+            "name": "marker_height",
+            "rank": 7,
+            "value": "number"
+        },
+        "AAo": {
+            "caption": "Customize on Click Behaviour",
+            "editor": "Label",
+            "name": "customize_on_click_behaviour",
+            "rank": 8,
+            "value": "number"
+        },
+        "AAp": {
+            "caption": "Popup Content",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "popup_content",
+            "optional": true,
+            "rank": 9,
+            "value": "text"
+        },
+        "AAq": {
+            "caption": "Background Color",
+            "default_val": "#FFFFFF",
+            "doc": "Hex Value . For ex- #000000",
+            "editor": "DynamicValue",
+            "name": "background_color",
+            "rank": 10,
+            "value": "text"
+        },
+        "AAr": {
+            "caption": "Font Color",
+            "default_val": "#000000",
+            "doc": "Hex Value . For ex- #000000",
+            "editor": "DynamicValue",
+            "name": "font_color",
+            "rank": 11,
+            "value": "text"
+        },
+        "AAs": {
+            "caption": "Font Size",
+            "default_val": 12,
+            "editor": "DynamicValue",
+            "name": "font_size",
+            "rank": 12,
+            "value": "number"
+        },
+        "AAt": {
+            "caption": "Other Details",
+            "editor": "Label",
+            "name": "other_details",
+            "rank": 13
+        },
+        "AAu": {
+            "caption": "Marker ID",
+            "default_val": "my_marker",
+            "editor": "DynamicValue",
+            "name": "marker_id",
+            "optional": false,
+            "rank": 14,
+            "value": "text"
+        },
+        "AAv": {
+            "caption": "Fly to Marker",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "fly_to_marker",
+            "rank": 15
+        }
+    }
+}
