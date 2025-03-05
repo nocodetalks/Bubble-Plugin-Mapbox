@@ -22,9 +22,9 @@
             "doc": "All the Map Style: https://docs.mapbox.com/api/maps/styles/",
             "editor": "Dropdown",
             "in_style": true,
-            "name": "map_style",
+            "name": "default_map_style",
             "options": "mapbox://styles/mapbox/standard,mapbox://styles/mapbox/standard-satellite,mapbox://styles/mapbox/streets-v12,mapbox://styles/mapbox/outdoors-v12, mapbox://styles/mapbox/light-v11, mapbox://styles/mapbox/dark-v11, mapbox://styles/mapbox/satellite-v9, mapbox://styles/mapbox/satellite-streets-v12, mapbox://styles/mapbox/navigation-day-v1, mapbox://styles/mapbox/navigation-night-v1",
-            "rank": 0
+            "rank": 3
         },
         "AAE": {
             "caption": "Zoom",
@@ -32,7 +32,7 @@
             "doc": "Choose between 0 to 22",
             "editor": "DynamicValue",
             "name": "zoom",
-            "rank": 1,
+            "rank": 5,
             "value": "number"
         },
         "AAF": {
@@ -40,16 +40,119 @@
             "default_val": false,
             "editor": "DynamicValue",
             "name": "hide_mapbox_branding",
-            "rank": 2,
+            "rank": 18,
             "value": "boolean"
         },
-        "AAG": {
+        "AAN": {
             "caption": "Default Location",
-            "editor": "DynamicValue",
+            "editor": "Label",
             "name": "default_location",
+            "rank": 6
+        },
+        "AAO": {
+            "caption": "Longitude",
+            "editor": "DynamicValue",
+            "name": "longitude",
             "optional": true,
-            "rank": 3,
-            "value": "geographic_address"
+            "rank": 7,
+            "value": "number"
+        },
+        "AAP": {
+            "caption": "Latitude",
+            "editor": "DynamicValue",
+            "name": "latitude",
+            "optional": true,
+            "rank": 8,
+            "value": "number"
+        },
+        "AAQ": {
+            "caption": "Map Style",
+            "editor": "Label",
+            "name": "map_style",
+            "rank": 2
+        },
+        "AAR": {
+            "caption": "Custom Style Url",
+            "editor": "DynamicValue",
+            "name": "custom_style_url",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "AAS": {
+            "caption": "Navigation Control",
+            "editor": "Label",
+            "name": "navigation_control",
+            "rank": 9
+        },
+        "AAT": {
+            "caption": "Show Navigation",
+            "default_val": true,
+            "editor": "Checkbox",
+            "name": "show_navigation",
+            "rank": 10
+        },
+        "AAU": {
+            "caption": "Location",
+            "default_val": "Top Right",
+            "editor": "Dropdown",
+            "name": "nav_location",
+            "options": "Top Right,Top Left,Bottom Right,Bottom Left",
+            "rank": 11
+        },
+        "AAW": {
+            "caption": "Direction Control",
+            "editor": "Label",
+            "name": "direction_control",
+            "rank": 12
+        },
+        "AAX": {
+            "caption": "Show Directions",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "show_directions",
+            "rank": 13
+        },
+        "AAY": {
+            "caption": "Location",
+            "default_val": "Top Right",
+            "editor": "Dropdown",
+            "name": "directions_location",
+            "options": "Top Right,Top Left,Bottom Right,Bottom Left",
+            "rank": 14
+        },
+        "AAZ": {
+            "caption": "Locate the user",
+            "editor": "Label",
+            "name": "locate_the_user",
+            "rank": 15
+        },
+        "AAa": {
+            "caption": "Geolocation Control",
+            "default_val": false,
+            "editor": "Checkbox",
+            "name": "geolocation_control",
+            "rank": 16
+        },
+        "AAb": {
+            "caption": "Secure your Mapbox Key.",
+            "editor": "Label",
+            "name": "secure_1",
+            "rank": 0
+        },
+        "AAc": {
+            "caption": "Mapbox elements load on the client side, exposing your access token in the browser. While it can’t be misused within the plugin, it’s best to restrict it to your Bubble app’s URL to prevent unauthorized access. Every Mapbox plugin has this limitation—some acknowledge it, others don’t. ",
+            "editor": "Label",
+            "name": "secure_2",
+            "rank": 1
+        },
+        "AAd": {
+            "caption": "Location",
+            "default_val": "Top Right",
+            "editor": "Dropdown",
+            "name": "geolocation_location",
+            "options": "Top Right,Top Left,Bottom Right,Bottom Left",
+            "rank": 17
         }
     },
     "icon": "ion-map",

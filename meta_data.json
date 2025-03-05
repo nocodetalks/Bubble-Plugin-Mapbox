@@ -4,6 +4,7 @@
         "1": "productivity",
         "2": "small business"
     },
+    "data_tracked": false,
     "demo_page": "https://mapboxplugin.bubbleapps.io/version-test",
     "description": "The Mapbox Maps plugin for Bubble provides integration with Mapbox. \n\nIt Allows:\n1. Show the map\n2. Zoom/in. \n3. Go to current location. \n\nIf you want any features, mail me at nocodetalks@gmail.com",
     "image": "//meta-q.cdn.bubble.io/f1740460981080x540247032751539400/images.png",
