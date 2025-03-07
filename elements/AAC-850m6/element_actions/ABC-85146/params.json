@@ -1,0 +1,116 @@
+{
+    "caption": "Add List of Marker",
+    "fields": {
+        "ABD": {
+            "caption": "marker_location",
+            "editor": "Label",
+            "name": "marker_location",
+            "rank": 0
+        },
+        "ABE": {
+            "caption": "Longitudes",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "marker_longitude_list",
+            "optional": true,
+            "rank": 1,
+            "value": "number"
+        },
+        "ABF": {
+            "caption": "Latitudes",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "marker_latitude_list",
+            "optional": true,
+            "rank": 2,
+            "value": "number"
+        },
+        "ABG": {
+            "caption": "Geographic Address",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "marker_geographic_address_list",
+            "optional": true,
+            "rank": 3,
+            "value": "geographic_address"
+        },
+        "ABH": {
+            "caption": "Custom ICONs",
+            "editor": "Label",
+            "name": "custom_icons",
+            "rank": 4
+        },
+        "ABI": {
+            "caption": "Icon Image (Single)",
+            "editor": "DynamicValue",
+            "name": "marker_icon_single",
+            "optional": true,
+            "rank": 5,
+            "value": "image"
+        },
+        "ABJ": {
+            "caption": "Icon Image (Multiple)",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "marker_icon_multiple",
+            "optional": true,
+            "rank": 6,
+            "value": "image"
+        },
+        "ABK": {
+            "caption": "Width",
+            "default_val": 40,
+            "editor": "DynamicValue",
+            "name": "width",
+            "rank": 7,
+            "value": "number"
+        },
+        "ABL": {
+            "caption": "Height",
+            "default_val": 40,
+            "editor": "DynamicValue",
+            "name": "height",
+            "rank": 8,
+            "value": "number"
+        },
+        "ABM": {
+            "caption": "Customize on Click Behaviour",
+            "editor": "Label",
+            "name": "customize_on_click_behaviour",
+            "rank": 9
+        },
+        "ABN": {
+            "caption": "Popup Content",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "popup_content",
+            "optional": true,
+            "rank": 10,
+            "value": "text"
+        },
+        "ABO": {
+            "caption": "Background Color",
+            "default_val": "#ffffff",
+            "editor": "DynamicValue",
+            "name": "background_color",
+            "rank": 11,
+            "value": "text"
+        },
+        "ABP": {
+            "caption": "Font Color",
+            "default_val": "#000000",
+            "editor": "DynamicValue",
+            "name": "font_color",
+            "rank": 12,
+            "value": "text"
+        },
+        "ABQ": {
+            "caption": "Font Size",
+            "default_val": 12,
+            "editor": "DynamicValue",
+            "name": "font_size",
+            "rank": 13,
+            "value": "number"
+        }
+    }
+}
