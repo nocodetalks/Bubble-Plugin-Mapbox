@@ -17,6 +17,18 @@
         "AAw": {
             "caption": "Marker Clicked",
             "name": "marker_clicked"
+        },
+        "ABe": {
+            "caption": "Drawing Created",
+            "name": "drawing_created"
+        },
+        "ABf": {
+            "caption": "Drawing Deleted",
+            "name": "drawing_deleted"
+        },
+        "ABg": {
+            "caption": "Drawing Updated",
+            "name": "drawing_updated"
         }
     },
     "fields": {
@@ -206,6 +218,30 @@
                 "fn": "function(properties, context) {\n\n\n\n}"
             },
             "name": "clicked_marker_id",
+            "value": "text"
+        },
+        "ABh": {
+            "caption": "Drawing Unique ID",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "drawing_unique_id",
+            "value": "text"
+        },
+        "ABi": {
+            "caption": "Drawing Type",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "drawing_type",
+            "value": "text"
+        },
+        "ABj": {
+            "caption": "Drawing GeoJSON Coordinates",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "drawing_geojson",
             "value": "text"
         }
     }

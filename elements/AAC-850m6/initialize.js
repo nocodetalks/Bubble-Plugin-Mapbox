@@ -7,6 +7,9 @@ function(instance, context) {
          return context.reportDebugger("Error: An API access token is required to use Mapbox Plugin.");
  
     mapboxgl.accessToken = mapboxAccessKey;
+    
+    instance.data.marker_list = []; // Store markers globally
+
      
     const {data: data, canvas: canvas} = instance;
  
@@ -55,11 +58,24 @@ function(instance, context) {
     function formatPosition(text) {
         return text.toLowerCase().replace(/\s+/g, '-');
     }
+    
+    
+    function removeMarker(markerId) {
+    	if (instance.data.markers && instance.data.markers[markerId]) {
+        	instance.data.markers[markerId].remove(); // Remove marker from map
+        	delete instance.data.markers[markerId]; // Remove from storage
+        	//console.log(`Marker ${markerId} removed.`);
+    	} else {
+        	console.log(`Marker ${markerId} not found.`);
+    	}
+	}
+    
  
      data.mapbox=map;
      data.geoLocationControl=geolocate;
      data.directionsControl = directions;
      data.navigationControl = navControl;
      data.formatPosition=formatPosition;
+     data.removeMarker=removeMarker;
 
  }

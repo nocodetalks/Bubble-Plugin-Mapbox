@@ -1,0 +1,71 @@
+{
+    "caption": "Enable Drawing Mode",
+    "fields": {
+        "ABV": {
+            "caption": "CONTROLS",
+            "editor": "Label",
+            "name": "controls",
+            "rank": 0
+        },
+        "ABW": {
+            "caption": "If any of the below fields are set to 'yes', they will appear on the map as a control option",
+            "editor": "Label",
+            "name": "if_any_of_the_below_fields_are_set_to_'yes',_they_will_appear_on_the_map_as_a_control_option",
+            "rank": 1
+        },
+        "ABX": {
+            "caption": "Polygon",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "polygon",
+            "rank": 2,
+            "value": "boolean"
+        },
+        "ABY": {
+            "caption": "Line",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "line",
+            "rank": 3,
+            "value": "boolean"
+        },
+        "ABZ": {
+            "caption": "Point",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "point",
+            "rank": 4,
+            "value": "boolean"
+        },
+        "ABa": {
+            "caption": "Trash",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "trash",
+            "rank": 5,
+            "value": "boolean"
+        },
+        "ABb": {
+            "caption": "DEFAULT DRAWING MODE",
+            "editor": "Label",
+            "name": "defautl_drawing_mode",
+            "rank": 6
+        },
+        "ABc": {
+            "caption": "Enable by Default",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "enable_by_default",
+            "rank": 7,
+            "value": "boolean"
+        },
+        "ABd": {
+            "caption": "Default Selection",
+            "default_val": "Polygon",
+            "editor": "Dropdown",
+            "name": "default_selection",
+            "options": "Polygon,Line,Point",
+            "rank": 8
+        }
+    }
+}
